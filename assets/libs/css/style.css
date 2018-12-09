@@ -4516,7 +4516,7 @@ Pills vertical
 .table thead th,
 .table th {
     color: #3d405c;
-    font-family: 'Circular Std Medium';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .table-bordered {
@@ -4548,7 +4548,7 @@ tr.group,
 tr.group:hover {
     background-color: #5969ff !important;
     color: #fff;
-    font-family: 'Circular Std Medium';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
