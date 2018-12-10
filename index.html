@@ -978,8 +978,9 @@
                 var items = value.items;
                 var status = value.status;
                 var seatNum = value.seatNum;
+                var orderTime = value.orderTime;
                 
-                $('#recentOrders.table tbody').append('<tr id="'+orderNum+'-row"><td>'+i+'<td>'+orderNum+'</td><td>27-08-2018 01:22:12</td><td id="'+orderNum+'-food"></td><td>$'+total+'</td><td>'+seatNum+'</td><td>'+status+'</tr>');
+                $('#recentOrders.table tbody').append('<tr id="'+orderNum+'-row"><td>'+i+'<td>'+orderNum+'</td><td>'+orderTime+'</td><td id="'+orderNum+'-food"></td><td>$'+total+'</td><td>'+seatNum+'</td><td>'+status+'</tr>');
                     i++;
 
                 $.each(items, function(key, value){
