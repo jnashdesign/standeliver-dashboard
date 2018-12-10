@@ -969,6 +969,8 @@
 
         var ref = firebase.database().ref('/restaurants/0/orders');
         ref.on("value", function(snapshot){
+
+            $('#recentOrders.table tbody').empty();
             let i = 1;
             let obj = snapshot.val();
 
