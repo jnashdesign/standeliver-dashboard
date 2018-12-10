@@ -196,6 +196,7 @@ h4 {
 
 h5 {
     font-size: 15px;
+    font-weight: bold;
     line-height: 26px;
 }
 
@@ -4511,6 +4512,7 @@ Pills vertical
 .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #e6e6f2;
+    font-weight: bold;
 }
 
 .table thead th,
