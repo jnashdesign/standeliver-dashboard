@@ -1,7 +1,7 @@
 if (localStorage.getItem('loggedIn') == 'true'){
     console.log('User is logged in.');
 }else{
-    window.location.replace("index.html");
+    window.location.replace("/index.html");
 }
 
 $('.nav-user-name').html(sessionStorage.getItem('email'));
@@ -10,7 +10,7 @@ $('#logoutBtn').click(function(event){
     event.preventDefault();
     localStorage.clear();
     sessionStorage.clear();
-    window.location.replace("index.html");
+    window.location.replace("/index.html");
 })
 
 var storeID = sessionStorage.getItem('storeID');

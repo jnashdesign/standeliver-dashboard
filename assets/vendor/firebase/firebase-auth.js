@@ -13,7 +13,7 @@ $('#signin').click(function(event) {
                     sessionStorage.setItem('storeID',snapshot.val().storeID);
                 })
             localStorage.setItem('loggedIn', 'true');
-            window.location.replace("dashboard-sales.html");
+            window.location.replace("/dashboard-sales.html");
         })
         .catch(function(error) {
             alert(error.message);
