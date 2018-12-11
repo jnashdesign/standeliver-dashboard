@@ -1947,7 +1947,7 @@ Container / Wrapper
 .dashboard-wrapper {
     position: relative;
     left: 0;
-    margin-left: 264px;
+    /* margin-left: 264px; */
     min-height: 870px !important;
 }
 
@@ -6803,7 +6803,10 @@ Media Query
         border-bottom: 1px solid #dee2e6;
         border-right: transparent !important;
     }
-
+    .col-md-6 {
+        max-width: inherit;
+        flex: auto;
+    }
 }
 
 
@@ -6872,8 +6875,6 @@ Media Query
         border-bottom: 1px solid #dee2e6;
         border-right: transparent !important;
     }
-
-
 }
 
 
